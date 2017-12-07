@@ -3,15 +3,11 @@
 
 <head>
     <meta charset="utf-8" />
-    <script src="Scripts/angular.js"></script>
-    <script src="Scripts/angular-route.js"></script>
-    <script src="app/app.module.js"></script>
-    <script src="app/app.routes.js"></script>
     <title></title>
 </head>
 
 <body ng-app="EasyLabApp">
-    <div >
+    <div>
         <p>Name : <input type="text" ng-model="name"></p>
         <h1>Hello {{name}}</h1>
     </div>
@@ -19,6 +15,10 @@
     <a href="#!tomato">Tomato</a>
     <a href="#!orange">Orange</a>
     <div ng-view></div>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="app/app.module.js"></script>
+    <script src="app/app.routes.js"></script>
 </body>
 
 </html>  

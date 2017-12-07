@@ -10,6 +10,5 @@
         .when("/orange", {
             template: "app/components/home/homeView.html",
             controller: "homeController"
-        })
-        $locationProvider.html5Mode(true);
+        });
 });
