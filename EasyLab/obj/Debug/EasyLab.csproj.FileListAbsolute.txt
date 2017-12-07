@@ -51,7 +51,6 @@ c:\users\jvqui\source\repos\EasyLab\EasyLab\bin\EasyLab.dll
 c:\users\jvqui\source\repos\EasyLab\EasyLab\bin\EasyLab.pdb
 c:\users\jvqui\source\repos\EasyLab\EasyLab\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 c:\users\jvqui\source\repos\EasyLab\EasyLab\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-c:\users\jvqui\source\repos\EasyLab\EasyLab\obj\Debug\EasyLab.csprojResolveAssemblyReference.cache
 c:\users\jvqui\source\repos\EasyLab\EasyLab\obj\Debug\EasyLab.csproj.CoreCompileInputs.cache
 c:\users\jvqui\source\repos\EasyLab\EasyLab\obj\Debug\EasyLab.dll
 c:\users\jvqui\source\repos\EasyLab\EasyLab\obj\Debug\EasyLab.pdb
