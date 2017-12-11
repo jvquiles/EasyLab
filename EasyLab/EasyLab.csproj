@@ -79,11 +79,18 @@
   <ItemGroup>
     <Content Include="app\app.module.js" />
     <Content Include="app\app.routes.js" />
+    <Content Include="app\components\about\aboutController.js" />
+    <Content Include="app\components\about\aboutView.html" />
+    <Content Include="app\components\contact\contactController.js" />
+    <Content Include="app\components\contact\contactView.html" />
     <Content Include="app\components\home\homeController.js" />
-    <Content Include="app\components\home\homeService.js" />
     <Content Include="app\components\home\homeView.html" />
-    <Content Include="app\components\home\homeView.js" />
+    <Content Include="assets\favicon.ico" />
     <Content Include="Index.html" />
+    <Content Include="scripts\angular-route.js" />
+    <Content Include="scripts\angular.min.js" />
+    <Content Include="style\bootstrap.min.css" />
+    <Content Include="style\font-awesome.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -91,8 +98,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\shared\" />
-    <Folder Include="assets\" />
-    <Folder Include="Scripts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

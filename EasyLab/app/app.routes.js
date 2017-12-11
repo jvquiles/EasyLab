@@ -2,13 +2,14 @@
     $routeProvider
         .when("/home", {
             templateUrl: "app/components/home/homeView.html",
-            controller: "homeController"
+            controllerUrl: "app/components/home/homeController.js"
         })
-        .when("/tomato", {
-            template: "<h1>Tomato</h1><p>Tomatoes contain around 95% water.</p>"
+        .when("/about", {
+            templateUrl: "app/components/about/aboutView.html",
+            controllerUrl: "app/components/about/aboutController.js"
         })
-        .when("/orange", {
-            template: "app/components/home/homeView.html",
-            controller: "homeController"
+        .when("/contact", {
+            templateUrl: "app/components/contact/contactView.html",
+            controllerUrl: "app/components/contact/contactController.js"
         });
 });
