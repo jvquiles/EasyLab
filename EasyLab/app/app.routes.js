@@ -1,15 +1,16 @@
-﻿app.config(function ($routeProvider, $locationProvider) {
+﻿app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $locationProvider) {
     $routeProvider
         .when("/home", {
             templateUrl: "app/components/home/homeView.html",
-            controllerUrl: "app/components/home/homeController.js"
+            controller: "homeController"
         })
         .when("/about", {
             templateUrl: "app/components/about/aboutView.html",
-            controllerUrl: "app/components/about/aboutController.js"
+            controller: "aboutController"
         })
         .when("/contact", {
             templateUrl: "app/components/contact/contactView.html",
-            controllerUrl: "app/components/contact/contactController.js"
+            controller: "contactController"
         });
-});
+    $locationProvider.html5Mode(true);
+}]);
